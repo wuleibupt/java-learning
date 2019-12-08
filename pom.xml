@@ -11,6 +11,7 @@
     <modules>
         <module>IOStreamStudy</module>
         <module>ThreadStudy</module>
+        <module>Network</module>
     </modules>
 
     <dependencies>
