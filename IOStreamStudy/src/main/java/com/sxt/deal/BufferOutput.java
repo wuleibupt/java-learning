@@ -8,7 +8,7 @@ public class BufferOutput {
         OutputStream os = null;
         try {
             os = new BufferedOutputStream(new FileOutputStream("abc.txt"));
-            byte[] datas = "hello world1".getBytes();
+            byte[] datas = "hello world".getBytes();
             os.write(datas,0, datas.length);
             os.flush();
         } catch (IOException e) {
