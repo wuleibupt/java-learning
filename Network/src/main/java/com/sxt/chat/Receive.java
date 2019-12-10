@@ -14,7 +14,6 @@ public class Receive implements  Runnable{
         this.isRunning = true;
         try {
             dis = new DataInputStream(client.getInputStream());
-
         } catch (IOException e) {
             release();
             e.printStackTrace();
@@ -23,9 +22,11 @@ public class Receive implements  Runnable{
 
     @Override
     public void run() {
-        String msg = receive();
-        if (!msg.equals("")) {
-            System.out.println(msg);
+        while (isRunning) {
+            String msg = receive();
+            if (!msg.equals("")) {
+                System.out.println(msg);
+            }
         }
     }
 
