@@ -2,7 +2,7 @@
 <web-app>
     <servlet>
         <servlet-name>login</servlet-name>
-        <servlet-class>com.sxt.server.basic.servlet.LoginServlet</servlet-class>
+        <servlet-class>com.sxt.server.user.LoginServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>reg</servlet-name>

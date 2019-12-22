@@ -1,4 +1,4 @@
-package com.sxt.xml;
+package com.sxt.server.core;
 
 import java.util.HashMap;
 import java.util.List;

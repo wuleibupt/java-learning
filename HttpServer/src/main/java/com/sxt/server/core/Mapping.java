@@ -1,4 +1,4 @@
-package com.sxt.xml;
+package com.sxt.server.core;
 
 import java.util.HashSet;
 import java.util.Set;

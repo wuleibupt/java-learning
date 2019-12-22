@@ -1,4 +1,4 @@
-package com.sxt.xml;
+package com.sxt.server.core;
 
 public class Entity {
     private String name;
