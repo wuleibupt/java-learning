@@ -13,6 +13,7 @@
         <module>ThreadStudy</module>
         <module>Network</module>
         <module>HttpServer</module>
+        <module>RocketMq</module>
     </modules>
 
     <dependencies>
